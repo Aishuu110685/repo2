@@ -7,3 +7,7 @@
        name: tree
        state: present
        
+    - name: install websever 
+      apt:
+       name: webserver 
+       state: present  
