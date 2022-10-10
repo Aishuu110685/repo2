@@ -7,7 +7,7 @@
        name: tree
        state: present
        
-    - name: install websever 
+    - name: install wget 
       apt:
-       name: webserver 
+       name: wget
        state: present  
